@@ -87,7 +87,7 @@ export class TextGenerator {
     }
 
     // Generare una frase completa
-    genSentence(startWord: string, secondWord: string, maxLength: number = 200): string {
+    genSentence(startWord: string, secondWord: string, maxLength: number = 50): string {
         const punctuationMarks = ['.', '!', '?'];
         let currentWord1 = startWord.toLowerCase();
         let currentWord2 = secondWord.toLowerCase();
